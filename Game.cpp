@@ -95,7 +95,7 @@ void Game::key_process() {
 	}
 
 	if (key.get_key_frames(KEY_INPUT_DOWN) == 1) {
-		++block_y;
+		++result_y;
 		hasInput = true;
 	}
 
